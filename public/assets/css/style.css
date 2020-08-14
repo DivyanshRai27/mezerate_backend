@@ -775,7 +775,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#3f43fd 50%, rgba(63, 67, 253, 0.4) 52%);
+  background: radial-gradient(#1acc8d 50%, rgba(113, 226, 113, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -823,7 +823,7 @@ section {
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #3f43fd;
+  border-left: 15px solid #1acc8d;
   transform: scale(20);
 }
 
