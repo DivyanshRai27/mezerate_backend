@@ -24,6 +24,10 @@ app.get('/class10', (req,res) =>{
     res.sendFile(pages+"/classes/class10/class10.html")
 })
 
+app.get('/class10/maths', (req,res) =>{
+    res.sendFile(pages+"/classes/class10/maths/maths.html")
+})
+
 
 app.listen(port, function() {
     console.log("Server started on port 3000");
