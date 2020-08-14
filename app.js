@@ -28,6 +28,10 @@ app.get('/class10/maths', (req,res) =>{
     res.sendFile(pages+"/classes/class10/maths/maths.html")
 })
 
+app.get('/class10/hindi', (req,res) =>{
+    res.sendFile(pages+"/classes/class10/hindi/hindi.html")
+})
+
 
 app.listen(port, function() {
     console.log("Server started on port 3000");
