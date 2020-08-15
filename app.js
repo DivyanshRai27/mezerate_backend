@@ -17,7 +17,7 @@ app.use(class10Router)
 
 
 app.get('/', (req,res) =>{
-    res.render('index')
+    res.render('index',{Title:"Mezerate: Find your study stuff here"})
 })
 
 app.listen(port, function() {
