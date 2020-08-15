@@ -12,7 +12,7 @@ router.get('/class10/maths', (req,res) =>{
 })
 
 router.get('/class10/hindi', (req,res) =>{
-    res.sendFile(pages+"/hindi/hindi.html")
+    res.render('classes/class10/hindi/hindi',{Title:"Hindi test"})
 })
 
 module.exports = router
