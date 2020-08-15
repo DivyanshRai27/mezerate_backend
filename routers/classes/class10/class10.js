@@ -8,11 +8,11 @@ router.get('/class10', (req,res) =>{
 })
 
 router.get('/class10/maths', (req,res) =>{
-    res.sendFile(pages+"/maths/maths.html")
+    res.render('classes/class10/maths/maths',{Title:"Maths"})
 })
 
 router.get('/class10/hindi', (req,res) =>{
-    res.render('classes/class10/hindi/hindi',{Title:"Hindi test"})
+    res.render('classes/class10/hindi/hindi',{Title:"Hindi"})
 })
 
 module.exports = router
