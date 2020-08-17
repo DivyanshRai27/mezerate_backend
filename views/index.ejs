@@ -245,8 +245,7 @@
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="/" method="post" role="form" class="">
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -265,13 +264,13 @@
                 <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                 <div class="validate"></div>
               </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit" disabled><strike>Send Message</strike></button>
-              <br>Forms are disabled, contact by email</div>
+              <h4 style="text-align: center; color: #1acc8d;"><%= msg %></h4>
+              <div class="text-center"><button type="submit" style="background: #1acc8d;
+                border: 0;
+                padding: 10px 30px;
+                color: #fff;
+                transition: 0.4s;
+                border-radius: 50px;">Send Message</button>
             </form>
 
           </div>
