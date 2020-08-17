@@ -37,6 +37,18 @@
 
   gtag('config', 'UA-174986679-1');
 </script>
+<script>
+  function validateForm() {
+    var x = document.forms["myForm"]["name"].value;
+    var y = document.forms["myForm"]["email"].value;
+    var z = document.forms["myForm"]["subject"].value;
+    var a = document.forms["myForm"]["message"].value;
+    if (x == "" ||y == "" ||z == "" ||a == "" ) {
+      alert("All the fields must be filled");
+      return false;
+    }
+  }
+  </script>
 </head>
 
 <body>
@@ -233,7 +245,7 @@
               <div class="email">
                 <i class="icofont-envelope"></i>
                 <h4>Email:</h4>
-                <p>themezerate@gmail.com</p>
+                <p>contact@mezerate.com</p>
               </div>      
               <div class="social-links mt-3" style="margin: 10px;">
                 <a href="https://www.facebook.com/mezerate/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a> 
@@ -245,7 +257,7 @@
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
-            <form action="/" method="post" role="form" class="">
+            <form action="/" method="post" role="form" onsubmit="return validateForm()" name="myForm" class="">
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -264,7 +276,6 @@
                 <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                 <div class="validate"></div>
               </div>
-              <h4 style="text-align: center; color: #1acc8d;"><%= msg %></h4>
               <div class="text-center"><button type="submit" style="background: #1acc8d;
                 border: 0;
                 padding: 10px 30px;

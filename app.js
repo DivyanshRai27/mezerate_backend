@@ -18,8 +18,13 @@ app.use(class10Router)
 
 
 app.get('/', (req,res) =>{
-    res.render('index',{Title:"Mezerate: Find your study stuff here", msg:""})
+    res.render('index',{Title:"Mezerate: Find your study stuff here"})
 })
+
+app.get('/submitted', (req,res) =>{
+    res.render('submitted',{Title:"Submitted"})
+})
+
 
 app.post('/', (req,res) =>{
     const output = `
@@ -58,7 +63,7 @@ app.post('/', (req,res) =>{
     
     console.log("Message sent: %s", info.messageId);
     console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
-    res.render('index',{Title:"Mezerate: Find your study stuff here", msg:"✅ Message sent"})
+    res.render('submitted',{Title:"Submitted"})
 })
 
 app.listen(port, function() {
