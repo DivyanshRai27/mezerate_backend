@@ -8,7 +8,7 @@ router.get('/class10', (req,res) =>{
 })
 
 router.get('/class10/maths', (req,res) =>{
-    res.render('classes/class10/maths/maths',{Title:"Maths"})
+    res.render('classes/class10/maths/maths',{Title:"Maths",status:" "})
 })
 
 router.get('/class10/hindi', (req,res) =>{
