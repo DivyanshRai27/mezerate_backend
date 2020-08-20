@@ -14,4 +14,4 @@
 </p>
 
 ## ScreenShot
-[![Product Name Screen Shot][product-screenshot]](https://mezerate.com)
+[![Product Name Screen Shot][product-screenshot]](https://mezerate.ams3.digitaloceanspaces.com/Logo/Screenshot%202020-08-20%20at%201.18.52%20PM.png)
