@@ -15,5 +15,5 @@
 
 ## ScreenShot
 <a href="https://mezerate.ams3.digitaloceanspaces.com/Logo/Screenshot%202020-08-20%20at%201.18.52%20PM.png">
-    <img src="https://mezerate.ams3.digitaloceanspaces.com/Logo/Screenshot%202020-08-20%20at%201.18.52%20PM.png" alt="Logo" width="1080" height="720">
+    <img src="https://mezerate.ams3.digitaloceanspaces.com/Logo/Screenshot%202020-08-20%20at%201.18.52%20PM.png" alt="Logo" width="1080" height="500">
   </a>
