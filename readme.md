@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://mezerate.ams3.digitaloceanspaces.com/Logo/M.png">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://mezerate.ams3.digitaloceanspaces.com/Logo/M.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Mezerate</h3>
