@@ -18,8 +18,17 @@ router.get('/class10/hindi', (req,res) =>{
 router.get('/class10/science', (req,res) =>{
     res.render('classes/class10/science/science',{Title:"Science",status:" "})
 })
+
 router.get('/class10/english', (req,res) =>{
     res.render('classes/class10/english/english',{Title:"English",status:" "})
 })
+
+router.get('/class10/exams', (req,res) =>{
+    res.render('classes/class10/exams',{Title:"Exams",status:" "})
+})
+
+
+
+
 
 module.exports = router
