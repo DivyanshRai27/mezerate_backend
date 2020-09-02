@@ -29,6 +29,10 @@ app.get('/submitted', (req,res) =>{
     res.render('submitted',{Title:"Submitted"})
 })
 
+app.get('/doubt', (req,res) =>{
+    res.render('doubt',{Title:"Any Doubt"})
+})
+
 
 
 
