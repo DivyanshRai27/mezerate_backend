@@ -19,6 +19,10 @@ app.use(formsRouter)
 const class10Router = require("./routers/classes/class10/class10")
 app.use(class10Router)
 
+///////////////kindergarten Routers//////////
+const kindergartenRouter = require("./routers/classes/kindergarten/kindergarten")
+app.use(kindergartenRouter)
+
 
 
 app.get('/', (req,res) =>{
