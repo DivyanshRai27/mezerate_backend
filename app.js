@@ -33,8 +33,9 @@ app.get('/doubt', (req,res) =>{
     res.render('doubt',{Title:"Any Doubt"})
 })
 
-
-
+app.get('/contribute', (req,res) =>{
+    res.render('contribute',{Title:"Contribute Us"})
+})
 
 app.listen(port, function() {
     console.log("Server started on port 5000");
