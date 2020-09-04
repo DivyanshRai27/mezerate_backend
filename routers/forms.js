@@ -39,7 +39,7 @@ router.post('/message', (req,res) =>{
     res.render('submitted',{Title:"Submitted"})
 })
 
-router.post('/doubt', (req,res) =>{
+router.post('https://forms.gle/bSei5voJsD9z2Haj6', (req,res) =>{
     const output = `
     <p>You have a new contact request</p>
     <h3>Contact Details<h3>
