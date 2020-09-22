@@ -27,6 +27,10 @@ router.get('/class10/geography', (req,res) =>{
     res.render('classes/class10/geography/geography',{Title:"Geography",status:" "})
 })
 
+router.get('/class10/history', (req,res) =>{
+    res.render('classes/class10/history/history',{Title:"History",status:" "})
+})
+
 router.get('/class10/exams', (req,res) =>{
     res.render('classes/class10/exams',{Title:"Exams",status:" "})
 })
